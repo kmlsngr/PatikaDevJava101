@@ -8,7 +8,6 @@ public class NotOrtalamasi {
         double chmNote = input.nextDouble();
         System.out.print("\nEnter the math note: ");
         double mathNote = input.nextDouble();
-
         System.out.print("\nEnter the Turkish note: ");
         double turNote = input.nextDouble();
         System.out.print("\nEnter the music note: ");
