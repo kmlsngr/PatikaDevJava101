@@ -12,13 +12,12 @@ public class Average {
         }
         double total=0;
         int count = 0;
-        for(int i = 0;i< grade.length;i++){
-            if(grade[i]>=0 && grade[i]<=100){
-                total +=grade[i];
-                count +=1;
-            }
+        for (double v : grade)
+            if (v >= 0 && v <= 100) {
+                total += v;
+                count += 1;
 
-        }
+            }
         System.out.println("Average: "+(total/count));
 
     }
