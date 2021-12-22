@@ -20,7 +20,7 @@ public class ExponentialNumber {
         int base = scanner.nextInt();
         System.out.print("Enter the exponent: ");
         int exponent = scanner.nextInt();
-        System.out.println(exponentialNum(base,exponent));
+        System.out.println("Result: "+exponentialNum(base,exponent));
 
 
     }
