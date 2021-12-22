@@ -22,5 +22,6 @@ public class ExponentialNumber {
         int exponent = scanner.nextInt();
         System.out.println(exponentialNum(base,exponent));
 
+
     }
 }
