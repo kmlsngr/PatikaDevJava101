@@ -5,7 +5,6 @@ public class PalindromeWord {
 
     static boolean isPalindrome(String s){
 
-        if((s.length())%2==0){
             int half = s.length()/2;
             int reverse = s.length()-1;
             for(int i = 0;i<half;i++){
@@ -18,21 +17,6 @@ public class PalindromeWord {
                     return false;
                 }
             }
-        }else {
-            int half = s.length()/2;
-            int reverse = s.length()-1;
-            for(int i = 0;i<half;i++){
-                if(s.charAt(i)==s.charAt(reverse)){
-                    reverse--;
-
-                }
-                else {
-
-                    return false;
-                }
-            }
-
-        }
 
         return true;
 
